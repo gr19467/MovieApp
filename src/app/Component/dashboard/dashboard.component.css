@@ -44,4 +44,15 @@
   border-radius: 5px;
   background-color: #777777;
   color: #bbbbbb;
+}
+
+.row {
+  color: #bbbbbb;
+}
+.row h6 {
+  font-size: 3vh;
+}
+
+.card-body {
+  color: #bbbbbb;
 }/*# sourceMappingURL=dashboard.component.css.map */
