@@ -1,0 +1,47 @@
+* {
+  overflow: hidden;
+}
+
+::-moz-placeholder {
+  color: #bbbbbb;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #bbbbbb;
+  opacity: 1;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 25vh;
+  color: #7a1d1d;
+  text-shadow: #511414 5px 5px;
+  margin: 0;
+  margin-top: 7vh;
+  text-align: center;
+  align-self: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+}
+.hero .search-bar {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.hero .search-bar input {
+  width: 40%;
+  border: #3c3b3b 3px solid;
+  border-radius: 5px;
+  background-color: #777777;
+  color: #bbbbbb;
+}/*# sourceMappingURL=dashboard.component.css.map */
